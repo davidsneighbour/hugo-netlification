@@ -29,5 +29,9 @@
       "@dnb-org/remark-config"
     ]
   },
-  "slug": "dnb-hugo-netlification"
+  "slug": "dnb-hugo-netlification",
+  "dependencies": {
+    "mem": "^9.0.1",
+    "trim": "^1.0.1"
+  }
 }
