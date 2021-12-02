@@ -1,3 +1,5 @@
+![repoimage](https://repository-images.githubusercontent.com/433661144/18c10795-5934-4ce5-bf3a-4084f78ceb07)
+
 ## DNB Hugo Netlification
 
 This is a Hugo theme component with helpers for hosting your Hugo generated static site on [Netlify](https://www.netlify.com/). If you don't use Netlify, you DO NOT require this module.
