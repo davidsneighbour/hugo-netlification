@@ -2,7 +2,9 @@
 
 # DNB Hugo Netlification
 
-This is a Hugo theme component with helpers for hosting your Hugo generated static site on [Netlify](https://www.netlify.com/). If you don't use Netlify, you DO NOT require this module.
+This is a Hugo theme component with helpers to host your [GoHugo](https://gohugo.io/) generated static website on [Netlify](https://www.netlify.com/). If you don't use Netlify, you DO NOT need this module.
+
+## Features
 
 **Redirects:** Adds redirects via HTTP headers. This redirection is faster and SEO wise better than Hugo's method of adding `meta-refresh` commands in dedicated files.
 
@@ -10,15 +12,15 @@ This is a Hugo theme component with helpers for hosting your Hugo generated stat
 
 **Headers:** Adds headers with caching and security directives to improves security and speed.
 
-## Installation
+## Installation and setup
 
-Step 1: enable modules in your own repository
+**Step 1:** enable modules in your own repository
 
 ```bash
 hugo mod init github.com/username/reponame
 ```
 
-Step 2: add the module to your required modules in `config.toml`:
+**Step 2:** add the module to your required modules in `config.toml`:
 
 ```toml
 [module]
@@ -35,7 +37,7 @@ path = "github.com/dnb-org/dnb-hugo-netlification"
 
 The next time you run hugo it will download the latest version of the module.
 
-Step 3: Add `REDIR` and `HEADERS` to your home output formats:
+**Step 3:** Add `REDIR` and `HEADERS` to your home output formats:
 
 ```toml
 [outputs]

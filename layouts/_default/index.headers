@@ -1,6 +1,6 @@
-{{/*
+{{- /*
 Paths can contain * or :placeholders. A :placeholder matches anything except / while a * matches anything.
-*/}}
+*/ -}}
 {{- $day := 60 -}}
 {{- $month := 2628000 -}}
 {{- $year := 31536000 -}}
@@ -9,7 +9,7 @@ Paths can contain * or :placeholders. A :placeholder matches anything except / w
 {{- $cacheMonths := int $configuration.cache.duration.months | default 0 -}}
 {{- $cacheDays := int $configuration.cache.duration.days | default 0 -}}
 {{- $cacheSeconds := add (mul $cacheDays $day) (add (mul $cacheMonths $month) (mul $cacheYears $year)) -}}
-{{/* header rules for root page */}}
+{{- /* header rules for root page */ -}}
 /
   Accept-Encoding: gzip, deflate, br
   Permissions-Policy: geolocation=(self), camera=(), fullscreen=*, interest-cohort=()

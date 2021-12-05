@@ -3,6 +3,9 @@
 # declare path to this script
 SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 || exit ; pwd -P )"
 
+# update repository files
+./bin/dnb-update-repofiles.sh
+
 # TODO read component names into array
 # TODO read replacement configuration into array
 

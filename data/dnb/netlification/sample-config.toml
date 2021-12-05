@@ -1,15 +1,51 @@
-# This is a sample configuration that is in use on samui-samui.de
+# ATTENTION: This is a sample, replace with your own setup!
+
 # Have a look at what is possible in the csp section and create your own.
 # Last hint: It might not seem so, but less is more ;)
 
 [csp]
+reportOnly = true
+reportUri = "https://customhostname.report-uri.com/r/d/csp/enforce"
+
 # https://content-security-policy.com/
 # https://report-uri.com/account/setup/
-reportOnly = true
-reportUri = "https://samuisamui.report-uri.com/r/d/csp/enforce"
+connectSrc = [
+  "'self'",
+  "*.algolia.net",
+  "*.algolianet.com",
+  "www.clarity.ms",
+  "www.google-analytics.com",
+]
 defaultSrc = [
   "'self'",
-  "googleads.g.doubleclick.net"
+  "googleads.g.doubleclick.net",
+]
+fontSrc = [
+  "'self'",
+  "fonts.googleapis.com",
+]
+frameAncestors = [
+  "'none'",
+]
+frameSrc = [
+  "'self'",
+  "utteranc.es",
+  "www.google.com",
+  "www.youtube.com",
+  "www.youtube-nocookie.com",
+  "googleads.g.doubleclick.net",
+]
+imgSrc = [
+  "'self'",
+  "data: www.google-analytics.com",
+  "*.cloudfront.net",
+  "i.ytimg.com",
+]
+manifestSrc = [
+  "'self'",
+]
+objectSrc = [
+  "'self'",
 ]
 scriptSrc = [
   "'self'",
@@ -25,43 +61,9 @@ scriptSrc = [
   "www.gstatic.com",
   "unpkg.com",
   "identity.netlify.com",
-  "www.googletagmanager.com"
+  "www.googletagmanager.com",
 ]
 styleSrc = [
-  "'self'"
-]
-imgSrc = [
   "'self'",
-  "data: www.google-analytics.com",
-  "*.cloudfront.net",
-  "i.ytimg.com"
-]
-connectSrc = [
-  "'self'",
-  "*.algolia.net",
-  "*.algolianet.com",
-  "www.clarity.ms",
-  "www.google-analytics.com"
-]
-frameSrc = [
-  "'self'",
-  "utteranc.es",
-  "www.google.com",
-  "www.youtube.com",
-  "www.youtube-nocookie.com",
-  "googleads.g.doubleclick.net"
-]
-frameAncestors = [
-  "'none'"
-]
-manifestSrc = [
-  "'self'"
-]
-fontSrc = [
-  "'self'",
-  "fonts.googleapis.com"
-]
-objectSrc = [
-  "'self'"
 ]
 upgradeInsecureRequests = true
