@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/dnb-org/dnb-hugo-netlification/compare/v1.0.2...v1.0.3) (2021-12-06)
+
+
+### Chore
+
+* **fix:** remove data directory from mounts ([f39eeb0](https://github.com/dnb-org/dnb-hugo-netlification/commit/f39eeb047a5833d1961633aca0928f41ba96473c))
+
 ### [1.0.2](https://github.com/dnb-org/dnb-hugo-netlification/compare/v1.0.1...v1.0.2) (2021-12-06)
 
 
