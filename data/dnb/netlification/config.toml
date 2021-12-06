@@ -1,5 +1,5 @@
 [csp]
 defaultSrc = [
-  "'self'",
+  "'self'"
 ]
 upgradeInsecureRequests = true

@@ -14,18 +14,18 @@ connectSrc = [
   "*.algolia.net",
   "*.algolianet.com",
   "www.clarity.ms",
-  "www.google-analytics.com",
+  "www.google-analytics.com"
 ]
 defaultSrc = [
   "'self'",
-  "googleads.g.doubleclick.net",
+  "googleads.g.doubleclick.net"
 ]
 fontSrc = [
   "'self'",
-  "fonts.googleapis.com",
+  "fonts.googleapis.com"
 ]
 frameAncestors = [
-  "'none'",
+  "'none'"
 ]
 frameSrc = [
   "'self'",
@@ -33,19 +33,19 @@ frameSrc = [
   "www.google.com",
   "www.youtube.com",
   "www.youtube-nocookie.com",
-  "googleads.g.doubleclick.net",
+  "googleads.g.doubleclick.net"
 ]
 imgSrc = [
   "'self'",
   "data: www.google-analytics.com",
   "*.cloudfront.net",
-  "i.ytimg.com",
+  "i.ytimg.com"
 ]
 manifestSrc = [
-  "'self'",
+  "'self'"
 ]
 objectSrc = [
-  "'self'",
+  "'self'"
 ]
 scriptSrc = [
   "'self'",
@@ -61,9 +61,9 @@ scriptSrc = [
   "www.gstatic.com",
   "unpkg.com",
   "identity.netlify.com",
-  "www.googletagmanager.com",
+  "www.googletagmanager.com"
 ]
 styleSrc = [
-  "'self'",
+  "'self'"
 ]
 upgradeInsecureRequests = true
