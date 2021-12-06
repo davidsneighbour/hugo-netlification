@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/dnb-org/dnb-hugo-netlification/compare/v1.0.1...v1.0.2) (2021-12-06)
+
+
+### Bug Fixes
+
+* formatter added trailing commas in config samples ([2c1297f](https://github.com/dnb-org/dnb-hugo-netlification/commit/2c1297f632661a3a94bce3e1323e7ec39df98e48))
+* standard-version configuration ignored package.json ([e9dfb18](https://github.com/dnb-org/dnb-hugo-netlification/commit/e9dfb18d552c4ca52b6a942eb3f23a1678654ff6))
+
+
+### Chore
+
+* **release:** v1.0.1 ([2681c8b](https://github.com/dnb-org/dnb-hugo-netlification/commit/2681c8bafe20128006498ef4c510623e68a4b9b2))
+
 ### [1.0.1](https://github.com/dnb-org/dnb-hugo-netlification/compare/v1.0.0...v1.0.1) (2021-12-05)
 
 
