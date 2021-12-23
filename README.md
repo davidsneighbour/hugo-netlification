@@ -185,18 +185,25 @@ To update all modules:
 hugo mod get -u
 ```
 
+## Extend netlification headers from other modules
+
+`dnb-hugo-netlification` offers an easy way to plug into the `_headers` file. Just add a file at `/data/namespacename/modulename/netlification.toml` and [follow the instructions about header formats at docs.netlify.com](https://docs.netlify.com/routing/headers/). These rules are added after the rules by `dnb-hugo-netlification`.
+
 <!--- COMPONENTS BEGIN --->
 
 ## Other [GoHugo](https://gohugo.io/) components by [@dnb-org](https://github.com/dnb-org/)
 
+<!-- prettier-ignore -->
 | Component | Description |
 | :--- | :--- |
 | [dnb-hugo-auditor](https://github.com/dnb-org/dnb-hugo-auditor) | |
 | [dnb-hugo-debug](https://github.com/dnb-org/dnb-hugo-debug) :mage_man: | |
 | [dnb-hugo-errors](https://github.com/dnb-org/dnb-hugo-errors) | |
+| [dnb-hugo-feeds](https://github.com/dnb-org/dnb-hugo-feeds) | Implements various configurable feed formats. |
 | [dnb-hugo-functions](https://github.com/dnb-org/dnb-hugo-functions) | |
 | [dnb-hugo-giscus](https://github.com/dnb-org/dnb-hugo-giscus) | The Giscus comment system layout for GoHugo. |
-| [dnb-hugo-head](https://github.com/dnb-org/dnb-hugo-head) | |
+| [dnb-hugo-head](https://github.com/dnb-org/dnb-hugo-head) | A GoHugo theme component that solves the old question of "What tags belong into the `<head>` tag of my website?" |
+| [dnb-hugo-hooks](https://github.com/dnb-org/dnb-hugo-hooks) | GoHugo's missing hook system for template extensions. |
 | [dnb-hugo-internals](https://github.com/dnb-org/dnb-hugo-internals) | Better internal templates for GoHugo |
 | [dnb-hugo-netlification](https://github.com/dnb-org/dnb-hugo-netlification) | a collection of tools that optimize your site on Netlify |
 | [dnb-hugo-opensearch](https://github.com/dnb-org/dnb-hugo-opensearch) | configuration for Open Search |
