@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/dnb-org/dnb-hugo-netlification/compare/v1.0.3...v1.0.4) (2021-12-23)
+
+
+### Features
+
+* header plugins for other modules ([7d0ac84](https://github.com/dnb-org/dnb-hugo-netlification/commit/7d0ac84bbf2f457429eaabccc2886f99b8454cae))
+
+
+### Bug Fixes
+
+* proper path to readme replacements (WIP) ([658456a](https://github.com/dnb-org/dnb-hugo-netlification/commit/658456a40d2011b961f9fc4c97ec8548c5555396))
+
 ### [1.0.3](https://github.com/dnb-org/dnb-hugo-netlification/compare/v1.0.2...v1.0.3) (2021-12-06)
 
 
