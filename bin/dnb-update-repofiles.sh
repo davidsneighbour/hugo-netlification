@@ -14,6 +14,6 @@ done
 
 # https://github.com/ozum/replace-between
 node ./node_modules/replace-between/bin/replace-between.js \
-  --source ../../templates/readme/components.md \
+  --source ../dnb-hugo-templates/readme/components.md \
   --target README.md \
   --token COMPONENTS
