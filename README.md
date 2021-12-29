@@ -1,6 +1,11 @@
-![repoimage](https://repository-images.githubusercontent.com/433661144/18c10795-5934-4ce5-bf3a-4084f78ceb07)
+<!--- CARD BEGIN --->
 
-# DNB Hugo Netlification
+![DNB-Hugo/HEAD](.github/github-card-dark.png#gh-dark-mode-only)
+![DNB-Hugo/HEAD](.github/github-card-light.png#gh-light-mode-only)
+
+<!--- CARD END --->
+
+# DNB GoHugo Component / Netlification
 
 This is a Hugo theme component with helpers to host your [GoHugo](https://gohugo.io/) generated static website on [Netlify](https://www.netlify.com/). If you don't use Netlify, you DO NOT need this module.
 
