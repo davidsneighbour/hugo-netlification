@@ -12,7 +12,7 @@
   "repository": "dnb-org/dnb-hugo-netlification",
   "bugs": "https://github.com/dnb-org/dnb-hugo-netlification",
   "devDependencies": {
-    "@dnb-org/remark-config": "^3.4.4",
+    "@dnb-org/remark-config": "^3.5.3",
     "@dnb-org/standard-version-config": "^3.4.3",
     "@dnb-org/tools": "^3.4.5"
   },
