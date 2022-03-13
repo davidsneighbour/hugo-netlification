@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://github.com/dnb-org/dnb-hugo-netlification/compare/v1.0.4...v1.0.5) (2022-03-13)
+
+
+### Bug Fixes
+
+* proper newlines in redirect file ([cd1ca69](https://github.com/dnb-org/dnb-hugo-netlification/commit/cd1ca691d08eb2ed96117f437326db55476f09b8))
+
+
+### Chore
+
+* **config:** update header images ([d76d00c](https://github.com/dnb-org/dnb-hugo-netlification/commit/d76d00c6cb6eb1588be3a796ba63d9f47b8bdd48))
+* **deps:** update dependencies ([d404382](https://github.com/dnb-org/dnb-hugo-netlification/commit/d4043825240624cd865b9e092f9df1a5f360bd02))
+* **deps:** update dependencies ([cd50177](https://github.com/dnb-org/dnb-hugo-netlification/commit/cd50177c2ea579b259e130c1d1dfef5453146547))
+* update go version ([014f6d7](https://github.com/dnb-org/dnb-hugo-netlification/commit/014f6d76f9aa524167db7903ce6b976a9fe46301))
+* update repository files ([341af3f](https://github.com/dnb-org/dnb-hugo-netlification/commit/341af3fdaabd2340e7aa37a28339c5f791334438))
+
+
+### Build System
+
+* update build system ([547a130](https://github.com/dnb-org/dnb-hugo-netlification/commit/547a1304584cc35201a213fdde91e1e985308f4e))
+
 ### [1.0.4](https://github.com/dnb-org/dnb-hugo-netlification/compare/v1.0.3...v1.0.4) (2021-12-23)
 
 
