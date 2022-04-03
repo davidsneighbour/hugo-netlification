@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.9](https://github.com/dnb-org/dnb-hugo-netlification/compare/v1.0.8...v1.0.9) (2022-04-03)
+
+
+### Bug Fixes
+
+* proper call to context for body-end hook ([77c9636](https://github.com/dnb-org/dnb-hugo-netlification/commit/77c9636efdb160da7c136c9c6eade1c621173f0d))
+
 ### [1.0.8](https://github.com/dnb-org/dnb-hugo-netlification/compare/v1.0.7...v1.0.8) (2022-04-03)
 
 
