@@ -1,4 +1,4 @@
-{{ if .IsHome }}
+{{- if eq "home" .Kind -}}
 <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
