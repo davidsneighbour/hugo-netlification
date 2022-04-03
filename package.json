@@ -1,5 +1,5 @@
 {
-  "name": "dnb-hugo-netlification",
+  "name": "@dnb-org/dnb-hugo-netlification",
   "version": "1.0.7",
   "license": "MIT",
   "description": "Tools for Hugo on Netlify",
@@ -12,9 +12,9 @@
   "repository": "dnb-org/dnb-hugo-netlification",
   "bugs": "https://github.com/dnb-org/dnb-hugo-netlification",
   "devDependencies": {
-    "@dnb-org/remark-config": "^3.5.7",
-    "@dnb-org/standard-version-config": "^3.5.6",
-    "@dnb-org/tools": "^3.5.6"
+    "@dnb-org/remark-config": "^3.5.11",
+    "@dnb-org/standard-version-config": "^3.5.9",
+    "@dnb-org/tools": "^3.5.10"
   },
   "scripts": {
     "lint": "run-p lint:*",
@@ -31,7 +31,6 @@
       "@dnb-org/remark-config"
     ]
   },
-  "slug": "dnb-hugo-netlification",
   "dependencies": {
     "mem": "^9.0.2",
     "trim": "^1.0.1"
