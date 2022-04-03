@@ -1,4 +1,5 @@
-{{- if eq "home" .Kind -}}
+{{ $context := .context }}
+{{- if eq "home" $context.Kind -}}
 <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
