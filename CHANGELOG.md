@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.8](https://github.com/dnb-org/dnb-hugo-netlification/compare/v1.0.7...v1.0.8) (2022-04-03)
+
+
+### Bug Fixes
+
+* better call to hooks ([c6f6cd7](https://github.com/dnb-org/dnb-hugo-netlification/commit/c6f6cd719f8651851606d1edcf5f24768cb98f78))
+
+
+### Build System
+
+* **deps:** bump minimist from 1.2.5 to 1.2.6 ([#37](https://github.com/dnb-org/dnb-hugo-netlification/issues/37)) ([4cda7fa](https://github.com/dnb-org/dnb-hugo-netlification/commit/4cda7faa094b4852827d432cbfc0b7691b0066c9))
+
+
+### Chore
+
+* **deps:** update dependencies ([6735583](https://github.com/dnb-org/dnb-hugo-netlification/commit/6735583d88e23cbb0bb82cd43da833dcd56bca0a))
+
 ### [1.0.7](https://github.com/dnb-org/dnb-hugo-netlification/compare/v1.0.6...v1.0.7) (2022-04-03)
 
 
