@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.10](https://github.com/dnb-org/dnb-hugo-netlification/compare/v1.0.9...v1.0.10) (2022-04-03)
+
+
+### Bug Fixes
+
+* another attempt at fixing the dreaded hooks situation ([7a64463](https://github.com/dnb-org/dnb-hugo-netlification/commit/7a644633ede45e5341d4ec918569c86bfab3275b))
+
 ### [1.0.9](https://github.com/dnb-org/dnb-hugo-netlification/compare/v1.0.8...v1.0.9) (2022-04-03)
 
 
