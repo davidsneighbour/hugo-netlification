@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.7](https://github.com/dnb-org/dnb-hugo-netlification/compare/v1.0.6...v1.0.7) (2022-04-03)
+
+
+### Bug Fixes
+
+* newline issue in redirects ([a1ff01f](https://github.com/dnb-org/dnb-hugo-netlification/commit/a1ff01fc4bf85c7c52297ef59c9d9888acb8308f))
+
+
+### Documentation
+
+* update component linke ([ce9a213](https://github.com/dnb-org/dnb-hugo-netlification/commit/ce9a2134a7d9cb2770f92eaa14ec7d615d23ee8b))
+
 ### [1.0.6](https://github.com/dnb-org/dnb-hugo-netlification/compare/v1.0.5...v1.0.6) (2022-03-31)
 
 ### [1.0.5](https://github.com/dnb-org/dnb-hugo-netlification/compare/v1.0.4...v1.0.5) (2022-03-13)
