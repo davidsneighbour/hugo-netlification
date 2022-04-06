@@ -1,5 +1,5 @@
 {
-  "name": "@dnb-org/dnb-hugo-netlification",
+  "name": "@davidsneighbour/hugo-netlification",
   "version": "1.0.11",
   "license": "MIT",
   "description": "Tools for Hugo on Netlify",
@@ -8,11 +8,10 @@
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "homepage": "https://github.com/dnb-org/dnb-hugo-netlification",
-  "repository": "dnb-org/dnb-hugo-netlification",
-  "bugs": "https://github.com/dnb-org/dnb-hugo-netlification",
+  "homepage": "https://github.com/davidsneighbour/hugo-netlification",
+  "repository": "davidsneighbour/hugo-netlification",
+  "bugs": "https://github.com/davidsneighbour/hugo-netlification",
   "devDependencies": {
-    "@dnb-org/remark-config": "^3.5.11",
     "@dnb-org/standard-version-config": "^3.5.9",
     "@dnb-org/tools": "^3.5.10"
   },
