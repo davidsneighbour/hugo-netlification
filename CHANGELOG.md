@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/davidsneighbour/hugo-netlification/compare/v1.0.11...v1.1.0) (2022-04-06)
+
+
+### Chore
+
+* cleanup after renaming ([6e26802](https://github.com/davidsneighbour/hugo-netlification/commit/6e26802c87a76ad6e2eb6591aacf9795cda3c1b3))
+
 ### [1.0.11](https://github.com/dnb-org/dnb-hugo-netlification/compare/v1.0.10...v1.0.11) (2022-04-03)
 
 
