@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/davidsneighbour/hugo-netlification/compare/v1.2.0...v1.2.1) (2022-04-19)
+
+
+### Build System
+
+* update Github organization name & user newer NPM dependencies ([#39](https://github.com/davidsneighbour/hugo-netlification/issues/39)) ([c9bc4c3](https://github.com/davidsneighbour/hugo-netlification/commit/c9bc4c3e4ee51b815c35f795495d83012d8c3bf6))
+
 ## [1.2.0](https://github.com/davidsneighbour/hugo-netlification/compare/v1.1.1...v1.2.0) (2022-04-07)
 
 
