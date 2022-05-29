@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.2](https://github.com/davidsneighbour/hugo-netlification/compare/v1.2.1...v1.2.2) (2022-05-29)
+
+
+### Chore
+
+* **config:** set dependabot to monthly ([135e3b7](https://github.com/davidsneighbour/hugo-netlification/commit/135e3b79b836d6cc8068f8b9b2776d2c9cc6e737))
+* **deps:** update dependencies ([f5a2b56](https://github.com/davidsneighbour/hugo-netlification/commit/f5a2b562162ee9af96376f79098932c81963edeb))
+
 ### [1.2.1](https://github.com/davidsneighbour/hugo-netlification/compare/v1.2.0...v1.2.1) (2022-04-19)
 
 

@@ -1,5 +1,6 @@
 bin/replacements
 resources
+notes
 
 # <!--- GITIGNORE BEGIN --->
 # Created by https://www.toptal.com/developers/gitignore/api/go,hugo,git,node,visualstudiocode,webstorm+all,linux,macos,windows
