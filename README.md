@@ -104,6 +104,10 @@ Netlification uses considerate caching options. Stylesheets, javascripts, images
 
 Have a look in [data/dnb/netlification/config.toml](https://github.com/davidsneighbour/hugo-netlification/blob/main/data/dnb/netlification/config.toml) or [data/dnb/netlification/sample-config.toml](https://github.com/davidsneighbour/hugo-netlification/blob/main/data/dnb/netlification/sample-config.toml) to learn more.
 
+You can check your content security policy using these following services and audits:
+
+- [https://csp-evaluator.withgoogle.com/?csp=https://kollitsch.dev](https://csp-evaluator.withgoogle.com/?csp=https://kollitsch.dev)
+
 ## Sample Configuration
 
 Add your configuration in `data/dnb/netlification/config.toml`.
