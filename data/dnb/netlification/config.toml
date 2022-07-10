@@ -2,4 +2,3 @@
 defaultSrc = [
   "'self'"
 ]
-upgradeInsecureRequests = true
