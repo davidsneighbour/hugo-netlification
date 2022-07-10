@@ -1,20 +1,20 @@
-{{/* range through single aliases */}}
-{{ range $p := .Site.Pages -}}
-{{ range .Aliases }}
-{{  . | printf "%-35s" }} {{ $p.RelPermalink -}}
+{{- /* range through single aliases */ -}}
+{{- range $p := .Site.Pages -}}
+{{- range .Aliases -}}
+{{- . | printf "%-40s" }} {{ $p.RelPermalink }}
 {{ end -}}
 {{- end -}}
 
 {{/* add a 404 redirect to 404.html */}}
-/* /404.html 404
+{{ "/*" | printf "%-40s" }} {{ "/404.html" | printf "%-40s" }} 404
 
 {{/* range through config redirects */}}
 {{- with site.Data.dnb.netlification.config.redirects -}}
-  {{- range . }}
-    {{- if (index . "netlify") }}
-      {{- .netlify }}* {{ site.BaseURL }}:splat 301!
-    {{- else }}
-      {{- .from | printf "%-35s" }} {{ .to | printf "%-35s" }}{{ with .status }} {{ int . }}{{ end }}
-    {{- end }}
-  {{ end }}
-{{- end }}
+{{- range . -}}
+{{ if (index . "netlify") -}}
+{{- printf "%s*" .netlify | printf "%-40s" }} {{ printf "%s:splat" site.BaseURL | printf "%-40s" }} 301!
+{{ else -}}
+{{- .from | printf "%-40s" }} {{ .to | printf "%-40s" }}{{ with .status }} {{ int . }}{{ end }}
+{{ end -}}
+{{ end -}}
+{{- end -}}
