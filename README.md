@@ -130,6 +130,10 @@ hugo mod get -u
 
 `hugo-netlification` offers an easy way to plug into the `_headers` file. Just add a file at `/data/namespacename/modulename/netlification.toml` and [follow the instructions about header formats at docs.netlify.com](https://docs.netlify.com/routing/headers/). These rules are added after the rules by `hugo-netlification`.
 
+## Notes
+
+- [Netlify's redirects engine](https://docs.netlify.com/routing/redirects/#rule-processing-order) will process the first matching rule it finds, reading from top to bottom. Rules in the `_redirects` file are always processed first, followed by rules in the Netlify configuration file.
+
 <!--- COMPONENTS BEGIN --->
 
 ## Other [GoHugo](https://gohugo.io/) components by [@davidsneighbour](https://github.com/davidsneighbour/)
