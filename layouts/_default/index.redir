@@ -1,13 +1,14 @@
-{{- /* range through single aliases */ -}}
+###########################################################################
+# Netlification v{{ site.Data.dnb.netlification.build.version }}
+###########################################################################
+{{/* range through single aliases */}}
 {{- range $p := .Site.Pages -}}
 {{- range .Aliases -}}
 {{- . | printf "%-40s" }} {{ $p.RelPermalink }}
 {{ end -}}
-{{- end -}}
-
-{{/* add a 404 redirect to 404.html */}}
+{{- end }}
+{{- /* add a 404 redirect to 404.html */ -}}
 {{ "/*" | printf "%-40s" }} {{ "/404.html" | printf "%-40s" }} 404
-
 {{/* range through config redirects */}}
 {{- with site.Data.dnb.netlification.config.redirects -}}
 {{- range . -}}
