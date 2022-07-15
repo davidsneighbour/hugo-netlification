@@ -2,6 +2,43 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.5](https://github.com/davidsneighbour/hugo-netlification/compare/v1.2.2...v1.2.5) (2022-07-15)
+
+
+### Features
+
+* fix line endings in redirection file ([de87dc2](https://github.com/davidsneighbour/hugo-netlification/commit/de87dc22408c96d20b3ba807fce167d3bf6591c2))
+* **fix:** several issues in the redirection layout ([f34c5bf](https://github.com/davidsneighbour/hugo-netlification/commit/f34c5bf9f2d6f87b76fa7bcee40ea804792a70a6))
+
+
+### Bug Fixes
+
+* move 404 redirect to the end of the redirect list and add default header ([8ac3394](https://github.com/davidsneighbour/hugo-netlification/commit/8ac3394895ab62cd3b4f4e8cba217971fd1ab409))
+
+
+### Chore
+
+* **config:** move configuration around and update sample ([86aada4](https://github.com/davidsneighbour/hugo-netlification/commit/86aada44b814e50b09f86f03cc2a201e179d7ca6))
+* **config:** move version to build json ([35f13ab](https://github.com/davidsneighbour/hugo-netlification/commit/35f13abd1fceb1ae04bd346ea5bd9e11917a1696))
+* **deps:** update dependencies ([3a3e93c](https://github.com/davidsneighbour/hugo-netlification/commit/3a3e93ca2d37c73ae59065413e0c57eeaf26a002))
+* **release:** v1.2.3 ([ad5eed0](https://github.com/davidsneighbour/hugo-netlification/commit/ad5eed0aa0c4956307803c89b32ba8c1f4f75f14))
+* **release:** v1.2.4 ([4715a99](https://github.com/davidsneighbour/hugo-netlification/commit/4715a99703e684648ce90e67c36eb4751758dad9))
+* update configuration and dependencies ([7784854](https://github.com/davidsneighbour/hugo-netlification/commit/77848541c88217b23842aff99fa3bf8a4954a3a8))
+* update go to 1.18 ([48149b5](https://github.com/davidsneighbour/hugo-netlification/commit/48149b54b85810cbb898776f96c77a4ea94f0f5f))
+
+
+### Documentation
+
+* add link to csp evaluator ([970a34e](https://github.com/davidsneighbour/hugo-netlification/commit/970a34e934ad885d25fbfcd1c8133277336f6289))
+* fix documentation and sample config ([c910ca8](https://github.com/davidsneighbour/hugo-netlification/commit/c910ca847cbdcf017d79ce667791498c671301c4))
+* nicer separation of comments in redirection output ([c3ed776](https://github.com/davidsneighbour/hugo-netlification/commit/c3ed77603a8eab02c69979422255f9a670e13115))
+
+
+### Build System
+
+* **fix:** add document preparation script ([e77c167](https://github.com/davidsneighbour/hugo-netlification/commit/e77c16738e0a7e33a43d86f404ae6f130ca5e2bc))
+* **release:** update release scripts ([b5145fd](https://github.com/davidsneighbour/hugo-netlification/commit/b5145fd08b88faef48bbd79d2c89135f5f023bbf))
+
 ### [1.2.4](https://github.com/davidsneighbour/hugo-netlification/compare/v1.2.2...v1.2.4) (2022-07-10)
 
 
