@@ -5,11 +5,9 @@
 
 <!--- CARD END --->
 
-# David's Neighbour GoHugo Component / Netlification
-
 This is a Hugo theme component with helpers to host your [GoHugo](https://gohugo.io/) generated static website on [Netlify](https://www.netlify.com/). If you don't use Netlify, you DO NOT need this module.
 
-## Features
+# Features
 
 **Redirects:** Adds redirects via HTTP headers. This redirection is faster and SEO wise better than Hugo's method of adding `meta-refresh` commands in dedicated files.
 
@@ -17,7 +15,7 @@ This is a Hugo theme component with helpers to host your [GoHugo](https://gohugo
 
 **Headers:** Adds headers with caching and security directives to improves security and speed.
 
-## Installation and setup
+# Installation and setup
 
 **Step 1:** enable modules in your own repository
 
@@ -51,11 +49,11 @@ home = [ ... others ... , "REDIR", "HEADERS" ]
 
 You should already have an `[outputs]` section, add `"REDIR", "HEADERS"` to it. Add them to the `home` parameter, not to other definitions.
 
-## Configuration
+# Configuration
 
-### Redirects
+## Redirects
 
-#### Per post
+### Per post
 
 Redirection takes aliases that are defined in the pages frontmatter and creates a 301 redirect for them. This is done via HTTP headers as opposed to the redirects via HTML meta tags that Hugo is doing. This is faster and might be better for SEO.
 
@@ -68,7 +66,7 @@ aliases:
   - url3
 ```
 
-#### Additional Redirects
+### Additional Redirects
 
 - A redirect for 404 errors to Hugo's 404 page (`/layouts/404.html`) - no action by you required
 
@@ -92,15 +90,17 @@ aliases:
 
   You can add a status property, if you wish to output any other code than 301 for the redirect. The status property is optional and is explicitly intended for redirect cases.
 
-#### Disable internal alias creation in Hugo
+  The format of these redirect tables is identical to redirects format used in the [Netlify configuration file format](https://docs.netlify.com/routing/redirects/#syntax-for-the-netlify-configuration-file). 
+
+### Disable internal alias creation in Hugo
 
 If you are using Netlification you can speed up Hugo's page creation process a little bit by setting the config variable `disableAliases` to `true`. This will disable the default behaviour of creating an HTML file per alias to redirect via meta tags and speed up site generation.
 
-### Headers
+## Headers
 
 Netlification uses considerate caching options. Stylesheets, javascripts, images and other media files are cached for a full year. Netlification expects you to use Hugo pipes to create those files, which will result in unique URLs after you change the content of the files.
 
-#### Content Security Policy
+### Content Security Policy
 
 Have a look in [data/dnb/netlification/config.toml](https://github.com/davidsneighbour/hugo-netlification/blob/main/data/dnb/netlification/config.toml) or [data/dnb/netlification/sample-config.toml](https://github.com/davidsneighbour/hugo-netlification/blob/main/data/dnb/netlification/sample-config.toml) to learn more.
 
@@ -108,11 +108,11 @@ You can check your content security policy using these following services and au
 
 - [https://csp-evaluator.withgoogle.com/?csp=https://kollitsch.dev](https://csp-evaluator.withgoogle.com/?csp=https://kollitsch.dev)
 
-## Sample Configuration
+# Sample Configuration
 
 Add your configuration in `data/dnb/netlification/config.toml`. A sample configuration can be found in [data/dnb/netlification/sample-config.toml](data/dnb/netlification/sample-config.toml)
 
-## Updating
+# Updating
 
 To update this module:
 
@@ -126,11 +126,11 @@ To update all modules:
 hugo mod get -u
 ```
 
-## Extend netlification headers from other modules
+# Extend netlification headers from other modules
 
 `hugo-netlification` offers an easy way to plug into the `_headers` file. Just add a file at `/data/namespacename/modulename/netlification.toml` and [follow the instructions about header formats at docs.netlify.com](https://docs.netlify.com/routing/headers/). These rules are added after the rules by `hugo-netlification`.
 
-## Notes
+# Notes
 
 - [Netlify's redirects engine](https://docs.netlify.com/routing/redirects/#rule-processing-order) will process the first matching rule it finds, reading from top to bottom. Rules in the `_redirects` file are always processed first, followed by rules in the Netlify configuration file.
 

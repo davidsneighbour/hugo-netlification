@@ -88,5 +88,5 @@ styleSrc = [
 # Manual redirects. Netlify redirect is for the internal netlify-URL to be
 # redirected to the live site URL
 ################################################################################
-[redirects]
+[[redirects]]
 netlify = ""
