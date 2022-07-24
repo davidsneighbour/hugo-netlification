@@ -2,9 +2,9 @@
 # Netlification v{{ site.Data.dnb.netlification.build.version }}
 ################################################################################
 {{/* range through single aliases */}}
-{{- range $p := .Site.Pages -}}
+{{- range $p := site.Pages -}}
 {{- range .Aliases -}}
-{{- . | printf "%-40s" }} {{ $p.RelPermalink }}
+{{- . | printf "%-40s" }} {{ $p.RelPermalink }} {{ int 301 }}
 {{ end -}}
 {{- end }}
 {{/* range through config redirects */}}
