@@ -5,6 +5,9 @@ const localStandardVersion = {
     ...defaultStandardVersion.bumpFiles,
     { filename: "data/dnb/netlification/build.json", type: "json" },
   ],
+  skip: {
+    changelog: true
+  }
 };
 
 module.exports = {
